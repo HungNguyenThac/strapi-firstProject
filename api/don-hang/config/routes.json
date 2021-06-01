@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/don-hangs",
+      "handler": "don-hang.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/don-hangs/count",
+      "handler": "don-hang.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/don-hangs/:id",
+      "handler": "don-hang.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/don-hangs",
+      "handler": "don-hang.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/don-hangs/:id",
+      "handler": "don-hang.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/don-hangs/:id",
+      "handler": "don-hang.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
