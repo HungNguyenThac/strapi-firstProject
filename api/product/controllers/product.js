@@ -7,11 +7,10 @@
 
 module.exports = {
   async search(ctx) {
-    console.log(ctx);
-  },
+    let x = await strapi
+      .query("product")
+      .search({ _q: ctx.query.tenSP, _limit: 10 });
 
-  async phanloai(ctx) {
-    let x = await strapi.query("sanPham").search({ _q: ctx.query.ten });
     return x;
   },
 };

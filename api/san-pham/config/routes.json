@@ -10,6 +10,22 @@
     },
     {
       "method": "GET",
+      "path": "/san-phams/search",
+      "handler": "san-pham.search",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/san-phams/phanloai",
+      "handler": "san-pham.phanloai",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/san-phams/count",
       "handler": "san-pham.count",
       "config": {

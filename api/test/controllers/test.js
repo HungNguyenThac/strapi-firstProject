@@ -6,12 +6,8 @@
  */
 
 module.exports = {
-  async search(ctx) {
-    console.log(ctx);
-  },
-
   async phanloai(ctx) {
-    let x = await strapi.query("sanPham").search({ _q: ctx.query.ten });
+    let x = await strapi.query("test").search({ _q: ctx.query.ten });
     return x;
   },
 };

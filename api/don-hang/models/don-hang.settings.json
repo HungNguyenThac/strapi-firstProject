@@ -8,9 +8,5 @@
     "increments": true,
     "timestamps": true
   },
-  "attributes": {
-    "sanPham": {
-      "type": "json"
-    }
-  }
+  "attributes": {}
 }

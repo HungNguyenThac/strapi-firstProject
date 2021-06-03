@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "san_phams",
+  "collectionName": "products",
   "info": {
-    "name": "sanPham"
+    "name": "product"
   },
   "options": {
     "increments": true,
@@ -10,14 +10,10 @@
   },
   "attributes": {
     "tenSP": {
-      "type": "string",
-      "index":true
+      "type": "string"
     },
     "phanLoai": {
       "type": "string"
-    },
-    "moTa": {
-      "type": "json"
     },
     "gia": {
       "type": "integer"
@@ -38,11 +34,14 @@
     "anhBia": {
       "type": "string"
     },
-    "listAnh": {
-      "type": "json"
-    },
     "giamGia": {
       "type": "string"
+    },
+    "moTa": {
+      "type": "json"
+    },
+    "listAnh": {
+      "type": "json"
     }
   }
 }
