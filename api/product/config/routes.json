@@ -18,6 +18,14 @@
     },
     {
       "method": "GET",
+      "path": "/products/searchByPhanLoai",
+      "handler": "product.searchByPhanLoai",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/products/count",
       "handler": "product.count",
       "config": {
@@ -37,7 +45,7 @@
       "path": "/products",
       "handler": "product.create",
       "config": {
-        "policies": []
+        "policies": ["isExisted"]
       }
     },
     {
@@ -45,7 +53,7 @@
       "path": "/products/:id",
       "handler": "product.update",
       "config": {
-        "policies": []
+        "policies": ["removeEmptyField"]
       }
     },
     {

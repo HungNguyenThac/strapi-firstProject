@@ -8,11 +8,17 @@
 module.exports = {
   async search(ctx) {
     if (ctx.query.tenSP) {
-      let x = await strapi
-        .query("product")
-        .search({ _q: ctx.query.tenSP, _limit: 10 });
+      // let x = await strapi
+      //   .query("product")
+      //   .search({ _q: ctx.query.tenSP, _limit: 10 });
+      // return x;
 
-      return x;
+      const result = strapi
+        .query("product")
+        .model.find({ tenSP: { $regex: `.*${ctx.query.tenSP}.*` } });
+      console.log(result);
+      // const fields = result.map((entry) => entry.toObject());
+      return result;
     } else {
       return "thiếu query tenSP và phanLoai";
     }
@@ -20,10 +26,9 @@ module.exports = {
 
   async searchByPhanLoai(ctx) {
     let y = ctx.query.phanLoai;
-    console.log(y);
     let x = await strapi
       .query("product")
-      .search({ _q: ctx.query.tenSP, phanLoai: y, _limit: 10 });
+      .search({ _q: ctx.query.tenSP, phanLoai: y });
 
     return x;
   },
