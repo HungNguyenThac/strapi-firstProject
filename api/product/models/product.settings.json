@@ -14,15 +14,15 @@
     },
     "phanLoai": {
       "type": "string",
-      "index":false
+      "index": false
     },
     "gia": {
-      "type": "integer",     
-      "index":false
+      "type": "integer",
+      "index": false
     },
     "maSP": {
       "type": "string",
-      "index":false
+      "index": false
     },
     "size": {
       "type": "enumeration",
@@ -33,23 +33,23 @@
         "XL",
         "XXL"
       ],
-      "index":false
+      "index": false
     },
     "anhBia": {
       "type": "string",
-      "index":false
+      "index": false
     },
     "giamGia": {
       "type": "string",
-      "index":false
+      "index": false
     },
     "moTa": {
       "type": "json",
-      "index":false
+      "index": false
     },
     "listAnh": {
       "type": "json",
-      "index":false
+      "index": false
     }
   }
 }

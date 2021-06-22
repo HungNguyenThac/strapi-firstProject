@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_list_sp_list_sps",
+  "info": {
+    "name": "ListSP",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "chiTiet": {
+      "type": "component",
+      "repeatable": true,
+      "component": "chi-tiet.chi-tiet"
+    }
+  }
+}

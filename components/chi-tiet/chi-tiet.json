@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_chi_tiet_chi_tiets",
+  "info": {
+    "name": "chiTiet",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "product"
+    },
+    "soLuong": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_list_lists",
+  "info": {
+    "name": "list",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "model": "product"
+    },
+    "qualtity": {
+      "type": "integer"
+    }
+  }
+}

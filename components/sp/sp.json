@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sp_sps",
+  "info": {
+    "name": "SP",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "collection": "product"
+    },
+    "soLuong": {
+      "type": "json"
+    }
+  }
+}
