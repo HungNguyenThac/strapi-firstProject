@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bills",
+  "info": {
+    "name": "bill"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "sanPham": {
+      "type": "json"
+    },
+    "HovaTen": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "DiaChi": {
+      "type": "string"
+    },
+    "SoDienThoai": {
+      "type": "string"
+    }
+  }
+}

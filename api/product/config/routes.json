@@ -10,24 +10,16 @@
     },
     {
       "method": "GET",
-      "path": "/products/search",
-      "handler": "product.search",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/products/searchByPhanLoai",
-      "handler": "product.searchByPhanLoai",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
       "path": "/products/count",
       "handler": "product.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/products/search",
+      "handler": "product.search",
       "config": {
         "policies": []
       }
@@ -45,7 +37,7 @@
       "path": "/products",
       "handler": "product.create",
       "config": {
-        "policies": ["isExisted"]
+        "policies": []
       }
     },
     {
@@ -53,7 +45,7 @@
       "path": "/products/:id",
       "handler": "product.update",
       "config": {
-        "policies": ["removeEmptyField"]
+        "policies": []
       }
     },
     {

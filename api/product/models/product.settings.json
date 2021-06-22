@@ -13,43 +13,31 @@
       "type": "string"
     },
     "phanLoai": {
-      "type": "string",
-      "index": false
+      "type": "string"
     },
     "gia": {
-      "type": "integer",
-      "index": false
+      "type": "integer"
     },
     "maSP": {
-      "type": "string",
-      "index": false
-    },
-    "size": {
-      "type": "enumeration",
-      "enum": [
-        "S",
-        "M",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "index": false
+      "type": "string"
     },
     "anhBia": {
-      "type": "string",
-      "index": false
-    },
-    "giamGia": {
-      "type": "string",
-      "index": false
+      "type": "string"
     },
     "moTa": {
-      "type": "json",
-      "index": false
+      "type": "json"
     },
     "listAnh": {
-      "type": "json",
-      "index": false
+      "type": "json"
+    },
+    "size": {
+      "type": "json"
+    },
+    "giamGia": {
+      "type": "integer"
+    },
+    "boardSize": {
+      "type": "json"
     }
   }
 }

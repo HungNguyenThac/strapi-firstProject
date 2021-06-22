@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "products": {
-      "collection": "product"
-    },
     "soLuong": {
       "type": "json"
     }

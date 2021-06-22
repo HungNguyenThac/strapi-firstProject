@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
         // database: env("DATABASE_NAME", "lining"),
         // username: env("DATABASE_USERNAME", ""),
         // password: env("DATABASE_PASSWORD", ""),
-        uri: "mongodb+srv://thaidd7b:Thaidd7b@cluster0.jqh8p.mongodb.net/lining?retryWrites=true&w=majority",
+        uri: "mongodb+srv://nguyenthachung:hoagiaytranga9@cluster0.qaemv.mongodb.net/thetuxedo?retryWrites=true&w=majority",
       },
       options: {
         // charset: "utf8mb4_unicode_ci",

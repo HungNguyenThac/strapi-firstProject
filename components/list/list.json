@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "product": {
-      "model": "product"
-    },
     "qualtity": {
       "type": "integer"
     }
